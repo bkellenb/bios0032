@@ -1,0 +1,24 @@
+# Requirements file.
+# Install dependencies with:
+#   pip install -r requirements.txt
+#
+# 2024 Benjamin Kellenberger
+
+
+# for basic matrix/math operations
+numpy
+
+# tabular data, dataframes
+pandas
+
+# plotting, creating graphs
+matplotlib
+
+# Deep Learning
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch
+torchvision
+torchaudio
+
+# geospatial raster I/O
+rasterio
